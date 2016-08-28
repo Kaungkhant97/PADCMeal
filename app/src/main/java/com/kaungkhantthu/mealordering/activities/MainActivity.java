@@ -37,8 +37,7 @@ public class MainActivity extends AppCompatActivity  implements MealListAdapter.
     RecyclerView rvMeal;
     @BindView(R.id.swipe_refresh_layout)
     SwipeRefreshLayout swipeRefreshLayout;
-    @BindView(R.id.fab)
-    FloatingActionButton fab;
+
     private List<Meal> mealList;
     private MealListAdapter mAdapter;
 
